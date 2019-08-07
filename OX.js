@@ -57,7 +57,7 @@ function reset() {
   for (let i = 0; i <= 2; i++) {
     // console.log(container.children[i])
     for (let j = 0; j <= 2; j++) {
-      drwaLine.className = ''
+      drwaLine.className = 'draw-line'
       container.children[i].children[j].innerHTML = ''
       container.children[i].children[j].classList.remove('occupied')
     }
